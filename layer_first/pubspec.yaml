@@ -1,0 +1,32 @@
+name: layer_first
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  bloc: ^8.1.0
+  flutter_bloc: ^8.1.1
+  layer_first_api:
+    path: packages/layer_first_api
+  post_repository:
+    path: packages/post_repository
+  cupertino_icons: ^1.0.2
+  equatable: ^2.0.5
+  path_provider: ^2.0.8
+  json_annotation: ^4.6.0
+  hydrated_bloc: ^9.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  bloc_test: ^9.1.0
+  mockingjay: ^0.3.0
+  mocktail: ^0.3.0
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
+
